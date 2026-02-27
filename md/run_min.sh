@@ -15,8 +15,7 @@ Minimization
  cut=12.0,
 /
 EOF
-##amber18
-#my_amber=/home3/qwang/amber/amber18
+
 ##amber20
 my_amber=/home/htlin/home3/amber20
 mpirun -np 6 \
