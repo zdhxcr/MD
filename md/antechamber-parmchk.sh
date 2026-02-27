@@ -1,5 +1,4 @@
-##amber18
-#AMBERHOME=/home3/qwang/amber/amber18
+
 ##amber20
 AMBERHOME=/home3/htlin/amber20/
 in=lig_h.pdb #the original pdb file of ligand
