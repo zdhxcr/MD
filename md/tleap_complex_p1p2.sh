@@ -9,8 +9,6 @@ pro1=pro1_clear.pdb
 pro2=pro2_clear.pdb
 
 cat > input_leap <<EOF
-
-
 source leaprc.protein.ff19SB               
 source leaprc.water.opc         
 
