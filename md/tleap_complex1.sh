@@ -46,6 +46,4 @@ EOF
 
 # Run tleap
  $AMBERHOME/bin/tleap -f ./input_leap
-#
- 
 
