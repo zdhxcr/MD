@@ -1,6 +1,4 @@
 #!/bin/sh
-
-
 ## gm43 RTX3080 needs Amber20
 export AMBERHOME=/home/qwang/amber_source_files/amber20
 export PATH=/usr/lib64/mpich-3.2/bin:$PATH
