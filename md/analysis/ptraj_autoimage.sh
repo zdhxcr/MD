@@ -1,8 +1,6 @@
 #!/bin/sh
 #this is for rmsd analysis
 
-###
-
 prmtop=out.prmtop  #top
 mdcrd_1=prd1.mdcrd 
 mdcrd_2=prd2.mdcrd 
