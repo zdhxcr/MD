@@ -33,7 +33,6 @@ trajin autoimage.mdcrd
 #trajin prd2.mdcrd
 
 #autoimage :$pro@CA,C,N
-
 # 配体 RMSD，align 到蛋白 backbone
 rms :$pro@CA,C,N first  mass perres perresout $1 range "$res_lig"  perresmask &!(@H=)
 EOF
