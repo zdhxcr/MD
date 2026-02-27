@@ -33,9 +33,6 @@ eq NPT 2ns
 EOF
 echo "AMBERHOME IS $AMBERHOME "
 
-# pres0=1.0, taup=3.0,
-
-#my_mpirun='mpirun -np 8'
 
 #$my_mpirun $AMBERHOME/bin/pmemd.cuda_SPFP.MPI \
 $AMBERHOME/bin/pmemd.cuda_SPFP \
