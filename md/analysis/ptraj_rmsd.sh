@@ -4,7 +4,6 @@ mdcrd_1=autoimage.mdcrd
 name1=p2l_100ns_rmsd-protein-noH.dat
 name2=p2l_200ns_rmsd-protein-backbone.dat
  
-
 cat > ptrajInput.dat <<EOF
 trajin $mdcrd_1
 
