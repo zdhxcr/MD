@@ -1,26 +1,6 @@
 #!/bin/sh
 #100ns
 
-#### using pmemd.cuda 
-#export AMBERHOME=/home/qwang/home3/amber/amber18
-#export PATH=$AMBERHOME/bin:$PATH
-#export LD_LIBRARY_PATH=$AMBERHOME/lib:$LD_LIBRARY_PATH
-
-##using mpi
-#export AMBERHOME=/home/htlin/home3/amber20
-#export PATH=$AMBERHOME/bin:$PATH
-#export LD_LIBRARY_PATH=$AMBERHOME/lib:$LD_LIBRARY_PATH
-#
-### loading CUDA library 10.2 on gm31
-##export PATH=/usr/local/cuda-10.2/bin:$PATH
-##export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH
-##export CUDA_HOME=/usr/local/cuda-10.2
-#
-## loading CUDA library 10.2 on gm32/33
-#export PATH=/home3/qwang/amber/cuda-10.2/bin:$PATH
-#export LD_LIBRARY_PATH=/home3/qwang/amber/cuda-10.2/lib64:$LD_LIBRARY_PATH
-#export CUDA_HOME=/home3/qwang/amber/cuda-10.2
-#
 # gm43 RTX3080 needs Amber20
 export AMBERHOME=/home/qwang/amber_source_files/amber20
 export PATH=/usr/lib64/mpich-3.2/bin:$PATH
